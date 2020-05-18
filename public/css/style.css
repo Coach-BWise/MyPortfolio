@@ -581,7 +581,27 @@ nav.navbar a.nav-link:hover {
 *
 */
 .form-control {
+  margin-top: 20px;
   margin-bottom: 20px;
+}
+.contact-wrapper {
+  margin-top: 1rem;
+  margin-left: 5px;
+}
+.contact {
+  padding: 20px;
+  font-size: x-large;
+}
+.fa-phone {
+  width: 48px;
+}
+@media (max-width: 991px) {
+  .contact {
+    font-size: large;
+  }
+  .fa-phone {
+    width: 36px;
+  }
 }
 
 /*
