@@ -525,6 +525,28 @@ footer.main-footer p.template-bootstrapious a {
   color: #999;
 }
 
+/* Tooltip text */
+.wow .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 100000;
+  bottom: 100%;
+  margin-left: -60px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.wow:hover .tooltiptext {
+  visibility: visible;
+}
+
 /*
 
 =====================
